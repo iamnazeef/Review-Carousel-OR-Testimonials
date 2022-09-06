@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #d0d9fa;
+    font-family: Poppins;
+}
+
+.h1-el {
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #152763;
+}
+
+.underline-el {
+    display: inline-block;
+    border: 2px solid #436bee;
+    width: 100px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: #436bee;
+}
+
+.card-el {
+    display: inline-block;
+    background-color: white;
+    min-width: 600px;
+    /* max-width: 600px; */
+    text-align: center;
+    min-height: 420px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 12px 1px rgb(146, 146, 146); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.picture-el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.name-el {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #152763;
+}
+
+.desig-el {
+    font-weight: 500;
+    color: #436bee;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.message-el {
+    text-align: justify;
+    font-size: medium;
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.message {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.div-a-one {
+    padding-right: 30px;
+}
+
+.div-a-two {
+    padding-left: 30px;
+}
+
+.surprise-el {
+    display: inline-block;
+}
+
+#surprise-el {
+    padding: 10px;
+    background-color: #436bee;
+    border: none;
+    font-weight: 500;
+    font-family: Poppins;
+    letter-spacing: .04rem;
+    transition: transform 0.4s;
+}
+
+#surprise-el a {
+    text-decoration: none;
+    color: white;
+}
+
+#surprise-el:hover {
+    transform: translate(0, -5px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
